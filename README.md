@@ -5,6 +5,13 @@ API automation framework built using Python, Pytest, and Requests for testing Ca
 Target API:
 https://fakestoreapi.com/
 
+#Note : Known API Limitations / Observations
+
+- GitHub Actions execution may intermittently fail due to public API rate limiting or cloud-runner restrictions resulting in HTTP 403 responses.
+- FakeStoreAPI behaves as a public/mock API and some negative scenarios return successful responses instead of validation errors.
+- Certain documented status codes differ from actual API responses.
+- A few negative test cases are intentionally marked using `xfail` to document known API validation gaps.
+- All tests execute successfully in the local environment.
 ---
 
 # Framework Choice + Why
