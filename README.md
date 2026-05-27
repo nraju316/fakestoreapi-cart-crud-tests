@@ -12,7 +12,6 @@ https://fakestoreapi.com/
 - Certain documented status codes differ from actual API responses.
 - A few negative test cases are intentionally marked using `xfail` to document known API validation gaps.
 - All tests execute successfully in the local environment.
----
 
 # Framework Choice + Why
 
@@ -24,7 +23,10 @@ https://fakestoreapi.com/
 - JSONSchema
 - Pytest HTML Reports
 - GitHub Actions
+  
+## Why Python?
 
+Python was chosen because it provides a clean and readable syntax that helps accelerate automation framework development and maintenance. Its strong ecosystem support for Selenium, Pytest, and CI/CD integrations makes it highly suitable for scalable QA automation frameworks.
 ## Why Pytest?
 
 Pytest was chosen because it provides:
@@ -38,7 +40,6 @@ Pytest was chosen because it provides:
 
 The Requests library was used for API interactions because it is lightweight, readable, and widely used for REST API automation.
 
----
 # Extension Plan
 
 ## Parallelisation
@@ -81,7 +82,7 @@ Future enhancement:
 - Email report notifications
 - Historical trend reporting
 - Dashboard integration for CI pipelines
----
+
 
 # Test Coverage
 
@@ -101,7 +102,6 @@ The framework covers:
 - Data-Driven Testing using multiple product IDs
 - Response Time Validation
 
----
 
 # Framework Features
 
@@ -113,8 +113,6 @@ The framework covers:
 - Parallel Execution Support
 - HTML Reporting
 - GitHub Actions CI Integration
-
----
 
 # Project Structure
 
