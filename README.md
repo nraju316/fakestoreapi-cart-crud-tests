@@ -40,48 +40,27 @@ Pytest was chosen because it provides:
 
 The Requests library was used for API interactions because it is lightweight, readable, and widely used for REST API automation.
 
-# Extension Plan
+# Future Scalability / Extension Plan
 
-## Parallelisation
+### Parallelisation
 
 The framework supports parallel test execution using `pytest-xdist`.
-
-Benefits:
-- Faster execution time
-- Better scalability for large test suites
-- Improved CI/CD efficiency
-
 Example:
 
 ```bash
 pytest -n 2
 ```
-
-Future enhancement:
-- Dynamic worker allocation based on CPU cores
-- Distributed execution using Selenium Grid / containers
-
-## Reporting
+but we can enhance by using 
+  - Dynamic worker allocation based on CPU cores
+  - Distributed execution using Selenium Grid / containers
 
 The framework currently supports HTML reporting using `pytest-html`.
 
-Generated reports include:
-- Execution summary
-- Passed / Failed tests
-- Assertion failure details
-- Execution duration
-
-Example:
-
-```bash
-pytest --html=reports/report.html --self-contained-html
-```
-
-Future enhancement:
-- Allure reporting integration
-- Email report notifications
-- Historical trend reporting
-- Dashboard integration for CI pipelines
+but we can enhance by using 
+  - Allure reporting integration
+  - Email report notifications
+  - Historical trend reporting
+  - Dashboard integration for CI pipelines
 
 
 # Test Coverage
