@@ -15,7 +15,7 @@ https://fakestoreapi.com/
 
 # Framework Choice + Why
 
-## Tech Stack
+Tech Stack
 
 - Python
 - Pytest
